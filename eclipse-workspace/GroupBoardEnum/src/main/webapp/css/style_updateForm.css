@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*{
+	margin:0; padding:0;
+	box-sizing:boder-box;
+}
+body { 
+	text-align: center;
+	background-color:#eee;
+}
+.container{margin:50px auto;width:1000px;}
+table {
+	width:800px;
+	text-align: center;
+	border: 1pt solid #eee;
+	margin:0 auto;
+}
+tr{background: #fcfcfc}
+th{ padding:20px 10px; border-radius:3px;}
+td{ padding:10px; border-radius:3px;}
+.input{
+	padding: 5px;
+}
+
+.insert_btn{
+	margin-top:10px; padding:7px 10px ;
+	background-color:#fff;  border:1px solid #ccc; cursor:pointer;}

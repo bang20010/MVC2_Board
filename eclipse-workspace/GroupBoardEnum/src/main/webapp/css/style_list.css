@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: boder-box;
+}
+
+body {
+	background-color: #eee;
+}
+
+.logoutForm {
+	width: 300px;
+	position: relative;
+	left: 350%;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.container {
+	margin: 10px auto;
+	width: 1000px;
+	position: relative;
+}
+
+.list_table {
+	text-align: center;
+}
+
+.list_table th {
+	background-color: #666;
+	color: #fff;
+	padding: 20px 10px;
+}
+
+.list_table td {
+	background-color: #fff;
+	color: #000;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.insert_btn {
+	margin-top: 10px;
+	padding: 7px 10px;
+	position: absolute;
+	right: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.logout_btn {
+	right: 0;
+	top: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	padding: 7px 10px;
+}
+
+.pageNum {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -70px;
+}
+
+.userid {
+	width: 200px;
+	float: right;
+	margin-top: 8px;
+	margin-right: 50px;
+	font-weight: bold;
+}

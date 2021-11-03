@@ -1,0 +1,25 @@
+@charset "UTF-8";
+*{padding:0; margin:0; box-sizing:border-box;}
+body{background-color:#eee;}
+.container{width:700px; margin:30px auto; position:relative;}
+.contents_title{text-align: center; font-size: 24px; margin-bottom: 20px;}
+.contents_container{
+   width:700px; height:300px; padding:60px 30px 30px 30px; 
+   background-color:#fff;  border-radius:10px; border:1px solid #ccc;}
+   
+.contents_header{height: 130px; text-align: center;}
+#id, #passwd{
+   height: 50px; width: 250px; margin-bottom: 10px; border-radius: 5px;
+   border: 1px solid #ccc; padding-left: 10px;
+}
+.contents_btn{text-align: center;}
+#btn{
+   height: 50px; width: 250px; background-color: #ccc; border: 1px solid #ccc;
+   border-radius: 5px; color: #fff; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px;}
+#joinTag{
+   text-decoration: none; color: #000; margin: 5px;
+}
+.check{
+   height: 30px; width: 70px; background-color: #ccc; border: 1px solid #ccc; cursor:pointer;
+   border-radius: 5px; color: #fff; font-size: 14px; /* font-weight: 600; */ margin-bottom: 10px;
+}

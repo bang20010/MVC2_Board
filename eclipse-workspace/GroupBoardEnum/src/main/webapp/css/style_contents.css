@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	background-color: #eee;
+}
+
+.container {
+	width: 700px;
+	margin: 100px auto;
+	position: relative;
+}
+
+.btn_wrap {
+	position: absolute;
+	top: -45px;
+	right: 0;
+}
+
+.btn {
+	padding: 7px 10px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.contents_container {
+	width: 700px;
+	height: 500px;
+	padding: 30px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+
+.contents_header {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.name {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.insertDate, .count {
+	color: #979797;
+	font-size: 14px;
+}
+
+.content {
+	padding-top: 20px;
+}
+
+/* 댓글 */
+.comment_container {
+	background-color: #fff;
+	width: 700px;
+	margin-top: 30px;
+	padding: 30px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	position: relative;
+}
+
+.commnet_h {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+input[type="text"] {
+	padding: 7px;
+	width: 400px;
+	border: 1px solid #ccc;
+}
+
+.comment_btn {
+	padding: 7px 10px;
+	background-color: #ccc;
+	border: 0;
+	cursor: pointer;
+}
+
+.cList_wrap {
+	margin-top: 20px;
+}
+
+.comment_list {
+	padding: 5px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.comment_list li {
+	margin: 5px 0;
+}

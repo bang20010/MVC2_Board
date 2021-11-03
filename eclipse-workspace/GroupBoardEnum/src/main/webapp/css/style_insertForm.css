@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+	font-size: 9pt; 
+	text-align: center;
+	background-color:#eee;
+}
+
+table {
+	font-size: 9pt;
+	text-align: center;
+	border: 1pt solid black;
+	margin:0 auto;
+}
+
+select {
+	font-size: 9pt; 
+}
+
+form {
+	font-size: 9pt;
+	text-align: center;
+}
+
+h1 {
+	
+	margin-bottom: 40px;
+}
